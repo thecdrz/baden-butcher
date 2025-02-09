@@ -1,0 +1,27 @@
+body {
+    font-family: monospace;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+}
+#game {
+    max-width: 800px;
+    margin: 0 auto;
+}
+#output {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #444;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #222;
+}
+#input {
+    width: 100%;
+    padding: 10px;
+    font-family: monospace;
+    background-color: #333;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
