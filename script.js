@@ -1,4 +1,4 @@
-// Part 1: Game Variables
+// Game Variables
 const locations = {
     townSquare: {
         description: "You are in the town square. The fog is thick, and the air is cold.",
@@ -31,7 +31,7 @@ let player = {
 
 let butcherLocation = "butcherShop";
 
-// Part 2: Game Loop
+// Game Loop
 const output = document.getElementById("output");
 const input = document.getElementById("input");
 

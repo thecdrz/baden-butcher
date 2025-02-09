@@ -5,10 +5,12 @@ body {
     margin: 0;
     padding: 20px;
 }
+
 #game {
     max-width: 800px;
     margin: 0 auto;
 }
+
 #output {
     height: 400px;
     overflow-y: auto;
@@ -17,6 +19,7 @@ body {
     margin-bottom: 10px;
     background-color: #222;
 }
+
 #input {
     width: 100%;
     padding: 10px;
