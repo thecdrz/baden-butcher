@@ -36,8 +36,18 @@ let player = {
 let butcherLocation = "butcherShop";
 
 // Game Elements
+const titleScreen = document.getElementById("title-screen");
+const gameScreen = document.getElementById("game-screen");
 const output = document.getElementById("output");
 const choices = document.getElementById("choices");
+const startBtn = document.getElementById("start-btn");
+
+// Start the game when the "Start Game" button is clicked
+startBtn.addEventListener("click", () => {
+    titleScreen.classList.add("hidden");
+    gameScreen.classList.remove("hidden");
+    describeLocation();
+});
 
 // Display a message in the output
 function log(message) {
@@ -111,6 +121,3 @@ function describeLocation() {
     log(currentLocation.description);
     showChoices(currentLocation.actions);
 }
-
-// Start the game
-describeLocation();
